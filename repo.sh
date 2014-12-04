@@ -67,7 +67,7 @@ _repo_clone() {
   local provider="$1"
   local user="$2"
   local repo="$3"
-  local parent="${REPO_ROOT}/${provider}/${user}/"
+  local parent="${REPO_ROOT}/${provider}/${user}"
   local dest="${parent}/${repo}"
 
   # ensure parent dirs are there
