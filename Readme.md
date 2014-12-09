@@ -14,7 +14,7 @@ source /path/to/repo.sh
 
 ## Usage
 
-```sh
+```
 $ repo help
 
   repo [command] <slug>
@@ -22,7 +22,7 @@ $ repo help
   Supported commands:
 
     help    Show this help text
-    cd      Literally 'cd <slug>' (default command)
+    cd      Literally 'cd <slug>'
     clone   Clone the new repo, then cd to it
     rm      Remove the old repo
 
@@ -35,7 +35,7 @@ $ repo help
 
   Examples:
 
-    # cd to somebody/somerepo
+    # clone and/or cd to somebody/somerepo
     $ repo somebody/somerepo
 
     # clone somebody/somerepo
@@ -43,7 +43,6 @@ $ repo help
 
     # remove somebody/somerepo
     $ repo rm somebody/somerepo
-
 ```
 
 ## Default Repository Root
